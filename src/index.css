@@ -1,13 +1,78 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.overrideCss {
+  color: palegreen;
+  border-color: palegreen;
+  border-width: 8px;
+}
+dropdown.ui.dropdown.default.text {
+  color: limegreen;
+  /* padding: 0; */
+}
+/* div.divider default text {
+  color: limegreen;
+} */
+/* div.divider.default.text {
+  color: limegreen;
+} */
+/* dropdown.ui.dropdown.default.text {
+  color: limegreen;
+} */
+/* .dropdown.placeholder {
+  color: limegreen;
+} */
+div.ui.dropdown:not(.button) > .default.text {
+  color: limegreen;
+  font-weight: 700;
+  background-color: black;
+}
+/* div.ui.dropdown.menu.item {
+  color: limegreen;
+} */
+div.ui.dropdown .menu > .item {
+  color: limegreen;
+  background-color: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+element.style {
+}
+div.ui.selection.active.dropdown .menu {
+  border-width: 8px;
+  border-color: limegreen;
+}
+i.ui.selection.dropdown > .dropdown.icon {
+  background-color: limegreen;
+}
+div.ui.selection.dropdown {
+  background-color: black;
+}
+div.body ::-webkit-scrollbar-track {
+  background-color: limegreen;
+  opacity: 0.7;
+}
+/* div.ui.visible.menu.transition {
+  background-color: blue;
+} */
+.selected.item {
+  color: limegreen;
+  background-color: blue;
+}
+a.ui.active.label {
+  color: limegreen;
+  border-color: limegreen;
+  border-width: 2px;
+}
+div.ui.dropdown .menu > .item:hover {
+  background-color: black;
+  color: limegreen;
+  opacity: 0.7;
+}
+
+/* .ui.dropdown .menu .selected.item, .ui.dropdown.selected */
+
+div.ui.dropdown .menu .selected.item {
+  color: limegreen;
+  background-color: black;
+}
+body ::-webkit-scrollbar-thumb {
+  background-color: limegreen;
+  color: limegreen;
 }
